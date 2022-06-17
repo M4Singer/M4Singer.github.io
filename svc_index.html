@@ -59,8 +59,9 @@
 
   <p><span style="text-align: left;font-size: 28px;">Introduction:</span><br /></p>
 <li><span style="text-align: left;font-size: 22px;">Singing voice conversion aims to convert the voice of one singer to that of other singers while keeping the singing content and prosody</span><br /></li>
-        <li><span style="text-align: left;font-size: 22px;">In our experiments, the model is fine-tuned using 15 minutes of singing data for each singer to be converted. In the first part we provide the audio of the two target singers (<i>Female</i> and <i>Male</i>) to be converted for timbre reference.</span><br /></li>
+        <li><span style="text-align: left;font-size: 22px;">In our experiments, the model is fine-tuned using 15 minutes of singing data for each singer to be converted. In the first part we provide the audio of the two target singers (<i>Female</i> and <i>Male</i>) for timbre reference.</span><br /></li>
         <li><span style="text-align: left;font-size: 22px;">In the second part, <i>Source Audio</i> and <i>Source Score</i> represent the singing content and prosody we want to keep. <i>To Male</i> and <i>To Female</i> represent the result of conversion to <i>Target Singer</i>.</span><br /></li>
+        <li><span style="text-align: left;font-size: 22px;">We replace the source score S<sup>source</sup> with the shifted score S<sup>shifted</sup> as input. S<sup>shifted</sup> is obtain by the formula: S<sup>shifted</sup> = S<sup>source</sup>  + P<sup>target</sup> - P<sup>source</sup>, where P<sup>target</sup> is obtained by averaging the pitch of <i>Target Singer</i> and P<sup>source</sup> is obtained by averaging the pitch of <i>Source Audio</i>.</span><br /></li>
         <br /><br />
 
 
