@@ -57,16 +57,128 @@
 
     <div class="post-content">
 
+    
+    <p style="font-size:15px;">Paper: <a href="https://openreview.net/pdf?id=qiDmAaG6mP">https://openreview.net/pdf?id=qiDmAaG6mP</a></p>
+    <p style="font-size:15px;">Code & Data: <a href="https://github.com/M4Singer/M4Singer">https://github.com/M4Singer/M4Singer</a></p>
+    <p style="font-size:15px;">Interactive Demo: <a href="https://huggingface.co/spaces/zlc99/M4Singer">https://huggingface.co/spaces/zlc99/M4Singer</a></p>
 
+    <br />
 
-<h1 id="Audio-Samples"><a href="#Audio-Samples" class="headerlink" title="Audio Samples"></a>Benchmarks</h1><p></p>
+<h1 id="What"><a href="#What" class="headerlink" title="What"></a>What is M4Singer?</h1><p></p>
+      <p style="font-size:23px;">
+        M4Singer is a large collection of multi-style singing voice recordings
+        and their elaborately labelled alignment and musical score information, which aims to support SVS
+        related studies.
+      </p>
+      <img id="content" width="1000" src="m4singer/image/content.png"/>
+</ol>
+
+<h1 id="Samples"><a href="#Samples" class="headerlink" title="Samples"></a>Samples</h1><p></p>
+    <table>
+      <thead>
+      <tr>
+      <th style="text-align:left"><strong>Singer ID</strong></th>
+      <th style="text-align:left"><strong>Singing fragment 1</strong></th>
+      <th style="text-align:left"><strong>Singing fragment 2</strong></th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+      <td style="text-align:left">Alto-1</td>
+      <td style="text-align:left"><figure >
+      <audio controls preload="metadata">
+      <source src="m4singer/audio/samples/Alto-1_1.wav" type="audio/wav">
+      </audio>
+      
+      </figure>
+      </td>
+      <td style="text-align:left"><figure >
+      <audio controls preload="metadata">
+      <source src="m4singer/audio/samples/Alto-1_2.wav" type="audio/wav">
+      </audio>
+      
+      </figure>
+      </td>
+      </tr>
+      <tr>
+      <td style="text-align:left">Tenor-2</td>
+      <td style="text-align:left"><figure >
+      <audio controls preload="metadata">
+      <source src="m4singer/audio/samples/Tenor-2_1.wav" type="audio/wav">
+      </audio>
+      
+      </figure>
+      </td>
+      <td style="text-align:left"><figure >
+      <audio controls preload="metadata">
+      <source src="m4singer/audio/samples/Tenor-2_2.wav" type="audio/wav">
+      </audio>
+
+      </figure>
+      </td>
+      </tr>
+      <tr>
+      <td style="text-align:left">Soprano-1</td>
+      <td style="text-align:left"><figure >
+      <audio controls preload="metadata">
+      <source src="m4singer/audio/samples/Soprano-1_1.wav" type="audio/wav">
+      </audio>
+      
+      </figure>
+      </td>
+      <td style="text-align:left"><figure >
+      <audio controls preload="metadata">
+      <source src="m4singer/audio/samples/Soprano-1_2.wav" type="audio/wav">
+      </audio>
+      
+      </figure>
+      </td>
+      </tr>
+      </tbody>
+      </table>
+</ol>
+
+<h1 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h1><p></p>
+      <p style="font-size:23px;">
+        The lack of publicly available high-quality and accurately labeled datasets has long
+        been a major bottleneck for singing voice synthesis (SVS). To tackle this problem,
+        we present M4Singer, a free-to-use Multi-style, Multi-singer Mandarin singing
+        collection with elaborately annotated Musical scores as well as its benchmarks.
+        Specifically, 1) we construct and release a large high-quality Chinese singing voice
+        corpus, which is recorded by 20 professional singers, covering 700 Chinese pop
+        songs as well as all the four SATB types (i.e., soprano, alto, tenor, and bass);
+        2) we take extensive efforts to manually compose the musical scores for each
+        recorded song, which is necessary to the study of the prosody modeling for SVS.
+        3) To facilitate the use and demonstrate the quality of M4Singer, we conduct four
+        different benchmark experiments: score-based SVS, controllable singing voice
+        (CSV), singing voice conversion (SVC) and automatic music transcription (AMT).
+      </p>
+</ol>
+
+<h1 id="Pipeline"><a href="#Pipeline" class="Peaderlink" title="Pipeline"></a>Pipeline</h1><p></p>
+<img id="content" width="1000" src="m4singer/image/biaozhu.jpg"/>
+</ol>
+
+<h1 id="Benchmarks"><a href="#Benchmarks" class="headerlink" title="Benchmarks"></a>Benchmarks</h1><p></p>
         <p style="font-size:25px;"><a href="https://huggingface.co/spaces/zlc99/M4Singer">Singing Voice Synthesis (SVS) Link</a></p>
         <p style="font-size:25px;"><a href="csv_index.html">Controllable Singing Voice (CSV) Link</a></p>
         <p style="font-size:25px;"><a href="svc_index.html">Singing Voice Conversion (SVC) Link</a></p>
 </ol><br /><br />
-<p style="font-size:23px;">Start your musical journey with <a href="https://github.com/M4Singer/M4Singer">M4Singer</a>.</p>
 
-
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <p>If you find our work useful, please cite our paper:</p>
+    <pre><code>@inproceedings{
+      zhang2022msinger,
+      title={M4Singer: A Multi-Style, Multi-Singer and Musical Score Provided Mandarin Singing Corpus},
+      author={Lichao Zhang and Ruiqi Li and Shoutong Wang and Liqun Deng and Jinglin Liu and Yi Ren and Jinzheng He and Rongjie Huang and Jieming Zhu and Xiao Chen and Zhou Zhao},
+      booktitle={Thirty-sixth Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+      year={2022},
+    }
+</code></pre>
+  </div>
+</section>
 
 <h3 id><a href="#" class="headerlink" title></a></h3>
         </div></article>
